@@ -71,8 +71,27 @@ Operators are used to operate on variables and values.
 
 - Identity operators include is and is not. used if values are of same data type and share the same memory location.
 
-- 
+Operators Precedence in Python follows the PEMDAS rule 
 
+P - Parentheses
+
+E - Exponentiation
+
+M - Multiplication and D - Division 
+
+A- Addition and S - Subtraction 
+
+
+## Data Types
+
+Strings, Integer, Float, list, tuple, dict, set, frozenset, bool, bytes, bytearray, NoneType
+
+- Use the + operator to concatenate strings
+
+- f-strings are used to include variables in your strings.
+  example- print(f'Hello, {name}. You are {age}.')
+
+  
 
 
 
