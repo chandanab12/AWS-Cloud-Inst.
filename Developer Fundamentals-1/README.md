@@ -124,8 +124,7 @@ Strings, Integer, Float, list, tuple, dict, set, frozenset, bool, bytes, bytearr
 
 - input() - allows you to pause your program and prompt a user to enter text.
 
-- ![image](httop[
-- pps://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/d31b752a-6a8e-4d69-8bec-35539fbdd221)
+- ![image](httop[pps://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/d31b752a-6a8e-4d69-8bec-35539fbdd221)
 
 - int() function - changes a string to an integer number.
 
