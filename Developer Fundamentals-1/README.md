@@ -84,6 +84,9 @@ A- Addition and S - Subtraction
 
 ## Data Types
 
+https://docs.python.org/3/library/stdtypes.html#string-methods
+
+
 Strings, Integer, Float, list, tuple, dict, set, frozenset, bool, bytes, bytearray, NoneType
 
 - Use the + operator to concatenate strings
