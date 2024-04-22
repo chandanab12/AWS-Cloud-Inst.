@@ -96,6 +96,8 @@ Strings, Integer, Float, list, tuple, dict, set, frozenset, bool, bytes, bytearr
   Indexing - a method to access individual elements in a sequence. Python assigns each element an index number starting from 0 to the first element.
 
   Slicing - to reference a specific element
+  
+starting index(included) and ending index (excluded) 
 
   to return a range of characters specify the start and end indexes.
   print (mystring[2:5])
