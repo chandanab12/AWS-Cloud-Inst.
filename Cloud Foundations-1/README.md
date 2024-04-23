@@ -131,3 +131,126 @@ A Local Zone is an extension of an AWS Region in a geographic proximity to the e
 For low latency issues if a regional centre is far away we establish a local zone. 
 
 
+## Core AWS Services 
+
+## Compute 
+
+Compute describes concepts and objects related to s/w computation. Used to refer processing power, memory, networking, storage and other resources. 
+
+### Amazon EC2 ( Elastic Compute Cloud) 
+
+It is a virtual cloud computing environment. 
+
+Can launch instances with a variety of OS, custom application environments, n/w access permissions and run images
+
+### Amazon ECS (Elastic Container Service)
+
+Fully managed container orchestration service that enables customers to deploy, manage and scale containerized applications 
+
+Containerized - a program/application that runs in its own environment. Has a designated OS that runs specifically for the program. 
+
+### Amazon Lightsail 
+
+Easy to use virtual private server(VPS instances), containers, storage, dbs, and more at a cost-effective price. 
+
+Generally used for launching simple web applications, creating custom websites, and building small business applications. 
+
+### AWS Lambda 
+
+Enables to run code without provisioning or managing servers. They pay only for the compute time used. Just need to upload the code. 
+
+## Storage 
+
+### Amazon S3 (Simple Storage Service) 
+
+It is an object storage service that offers scalability, data availability, security, and performance. It is designed for 99.9999999% durability. 
+
+### Amazon S3 Glacier 
+
+Built for data archiving, high performance, retrieval flexibility , and lowest cost archive storage. provides unlimited virtual scalability and data durability. 
+
+### Amazon EBS (Elastic Block Storage) 
+
+It is an easy to use scalable, high perf block storage service designed for Amazon EC2. Used for things lke big-data analytic engines and dbs. 
+
+# Q 
+
+What is the diff btw object storage and block storage. How would you know what service to use. 
+
+### Amazon EFS ( Amazon Elastic File System) 
+
+Automatically grows and shrinks as customers add and remove files. Does not require management or provisioning. 
+
+## Networking 
+
+A CDN(Content Delivery Network) is a geographically distributed group of servers that work together to provide fast delivery of internet content. 
+
+### Amazon VPC (Virtual Private Cloud) 
+
+Gives customers full control over a virtual networking environment, including resource placement, connectivity and security. 
+
+After setting up a VPC, resources such as EC@ instances are connected to it and communication is setup across accounts, availability zones and regions. 
+
+### Amazon CloudFront 
+
+It is a fast CDN that securely delivers data, videos , applications and API's to customers globally with low latency in a developer friendly environment. 
+
+Works with Amazon Shield Standard for DDos mitigation. 
+
+### ELB ( ELastic Load Balancing) 
+
+It works as a traffic director. Automatically distributes application traffic across  multiple targets and virtual appliances in one or more availability zones. 
+
+## Database 
+
+A DB is an electronically stores, systematic collection of data. Can contain any type of data, including words, numbers, images, etc. 
+
+### Amazon RDS ( Relational Database Service) 
+
+Is a collection of managed services that make it simple to set up , operate, and scale dbs in the cloud. 
+
+Can be setup using the following engines: Amazon Aurora with MySQL Compatibility, Amazon Aurora with PostGreSQL Compatiblity, MySQL, MariaDB, PostgreSQl, Oracle, SQL Server. 
+
+### Amazon Dynamo DB 
+
+It is a NoSQL DB that supports key-value and document data models. 
+
+DynamoDB delivers single-digit millisecond performance at any scale. Can support 10-trillion requests per day and peaks of more than 20 million requests per second. 
+
+It is a fully managed, multi region, multi master, durable db with built in security, backup and restore, and in memory caching. 
+
+## Management and Governance 
+
+### AWS CloudTrail 
+
+It is a service that enables governance, compliance , operational auditing, and risk auditiong for AWS account.
+
+It logs, continuously monitors and retains acc related activity across AWS infrastructure. Provides event history that simplifies security analysis, resource change tracking and troubleshooting. 
+
+### Amazon CloudWatch 
+
+Collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance. 
+
+### AWS Config 
+
+Continually assessess, audits, and evaluates to the config and relationships of AWS resources. 
+
+### AWS Audit Manager 
+
+Helps custormers map their compliance req to AWS usage data with pre built and custom frameworks and automated evidence collection 
+
+# Q.
+
+AWS config and cloud watch kinda same. What to use when 
+
+
+
+
+
+
+
+
+
+
+
+
