@@ -297,7 +297,7 @@ There are 2 types of clients - publishers and subscribers also referred to as pr
 
 ### Amazon EventBridge 
 
-It is a serverless service that uses events to connect application componenets together, making it easier for you to build scalable event driven applications. 
+It is a serverless service that uses events to connect application components together, making it easier for you to build scalable event-driven applications. 
 
 ## Business Applications
 
@@ -332,4 +332,81 @@ Fully managed, secure desktop computing service that runs on AWS cloud.
 Is an on demand fully managed, Linux based service designed to facilitate secure browser access to internal website and Saas applications. 
 
 ## Developer Tools 
+
+### AWs AppConfig 
+
+A capability of AWS Systems Manager, helps developers manage, store and safely deploy application configurations to hosts at runtime. 
+
+### AWS Cloud9 
+
+Is a cloud based IDE that lets developers write, run and debug code with just a browser. 
+
+### AWS CloudShell 
+
+Is a browser based shell, which lets developers quickly run scripts with AWS CLI, experiment with service API's using the AWS CLI and other tools to increase productivity. 
+
+### AWS CodeArtifact
+
+Is a managed artifact repo that lets developers securely store, publish and share s/w packages. 
+
+### AWS CodeBuild 
+
+Is a fully managed, continous integration servce that compiles source code, runs tests and 
+produces ready to deploy s/w packages
+
+### AWS Codecommit 
+
+Is a secure, highly scalable, and fully managed source control service that hosts private Git repos. 
+
+### AWS Codedeply 
+
+Is a fully managed deployment service that automates s/w deployments to various compute services such as Amazon EC2, ECS, Lambda and on premise servers. 
+
+### AWS Codepipeline
+
+Fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.
+
+### AWS Codestar 
+
+Enables developers to quickly develop, deploy, build and deploy applications on AWS. Provides unified user interface, and enables s/w development activities management in one place. 
+
+Entire CD Toolchain can be set up in AWS codestar
+
+Allows teams to release code faster. 
+
+- CodeStar Project
+
+Comes with project management dashboard, including an integrated issue tracking capability. 
+
+### AWS X-Ray
+
+Provides a complete view of requests as they travel through an application and filters visual data across payloads, functions, traces, with low code and low code motions. 
+
+## Front End web and mobile 
+
+AWS offers tools and services giving developers the ability to develop, deploy and operate applications all within a web browser. 
+
+### AWS Amplify
+
+Consists of a set of tools and services to let front-end web and mobile developers build, ship, and host full stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. 
+
+No prior cloud expertise is needed. 
+
+### AWS Appsync
+
+Allows applications to access exactly the data they need. Developers can create a flexible API to securely access, manipulate, and combine data from multiple sources, 
+
+Customers pay only for requests to the API and for real time messages deliverred to connected clients. 
+
+## IOT 
+
+IOT refers to the collective network of connected devices, and the technology that facilitates communication, both between devices and the cloud. 
+
+### AWS IOT Core
+
+Lets customers connect IOT devices and route messages to AWS services without managing infrastructure. 
+
+### AWS IOT GreenGrass
+
+Is a cloud service that allows you to build, deploy, and manage device s/w. It also includes an open edge runtime for running that s/w on devices at n/w edge
 
