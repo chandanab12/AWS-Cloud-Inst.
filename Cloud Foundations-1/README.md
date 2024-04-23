@@ -243,14 +243,93 @@ Helps custormers map their compliance req to AWS usage data with pre built and c
 
 AWS config and cloud watch kinda same. What to use when 
 
+## AI and ML 
 
+ML is the science of developing algorithms and statistical models that computer systems use to perform tasks without explicit instructions, relying on patterns and inference. 
 
+### Amazon Sagemaker 
 
+Provides the ability to build, train, and deploy ML models. 
 
+It covers the entire ML workflow to label and prepare data, choose an algo, train the model, tune and optimize it for deployment, make predictions, and take actions. 
 
+### Amazon Comprehend 
 
+Is an NLP service that uses ML to uncover valuable insight and connections in text. 
 
+### Amazon Translate 
 
+Is a text-translation service that uses adv. ML to provide high-quality translation. 
 
+## Data Analytics
 
+### Amazon Quicksight 
+
+Is a cloud-scale BI service that is used to deliver easy-to-understand insights. 
+
+### Amazon Redshift 
+
+is a fully managed, petabyte-scale data warehouse service in the cloud. It helps companies run complex analytics queries against petabytes of structured data. 
+
+Amazon Redshift uses SQL with hardware and ML to analyze structured and semi-structured data across warehouses, operational Dbs, and data lakes. 
+
+### Amazon EMR (Elastic Map Reduce) 
+
+Is a managed cluster platform that simplifies running big data frameworks on AWS to process and analyze vast amounts of data. 
+
+## Application Integration 
+
+App integration on AWS is a suite of services that enable communication between decoupled components within microservices, Distributed systems, and serverless applications. 
+
+- Decouple - Systems are decoupled when they are able to execute actions independent of each other( without using another system's resources) but are still able to communicate with each other.
+
+- Serverless architecture - is a way to build and run applications and services without having to manage infrastructure.
+
+### Amazon SQS (Simple Queue Service) 
+
+It offers a secure, durable, and available hosted queue that lets you integrate and decouple distributed software systems. 
+
+### Amazon SNS (Simple Notification Service)
+
+Is a web service that co-ordinates and manages the delivery or sending of messages to subscribing endpoints or clients. 
+
+There are 2 types of clients - publishers and subscribers also referred to as producers and consumers. 
+
+### Amazon EventBridge 
+
+It is a serverless service that uses events to connect application componenets together, making it easier for you to build scalable event driven applications. 
+
+## Business Applications
+
+They are meant to increase business agility, improve employee collaboration, and customer experience. 
+
+### Amazon Connect 
+
+Is an omnichannel cloud contact centre that helps companies provide better customer service at a lower cost. 
+
+You can setup a contact centre in a few steps, add agents located anywhere and start engaging with customers. 
+
+### Amazon SES (Simple Email Service)
+
+Is a cloud email service provider that can integrate into any application for bulk email sending. 
+
+Also supports variety of deployments including dedicated, shared or owned IP addresses. Reports on sender stats and deliverability dashboards. 
+
+## End-user computing services
+
+provides secure access to the applications and desktops the workforce needs to get their job done. 
+
+### Amazon AppStream 
+
+Is a fully managed non persistent desktop and application service for remotely accessing work on any computer
+
+### Amazon Workspaces 
+
+Fully managed, secure desktop computing service that runs on AWS cloud. 
+
+### Amazon Workspaces Web
+
+Is an on demand fully managed, Linux based service designed to facilitate secure browser access to internal website and Saas applications. 
+
+## Developer Tools 
 
