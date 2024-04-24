@@ -32,3 +32,5 @@ Got a great idea? Build it with AWS Activate. As an AWS Activate member, you get
 
 Looking for AWS Certified freelancers and AWS partners to complete your projects faster? Visit AWS IQ to connect with experts quickly and pay directly through AWS. 
 
+- AWS Well-Architected Framework (https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome) 
+  
