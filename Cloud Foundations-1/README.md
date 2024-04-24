@@ -505,7 +505,7 @@ It is the process of determining what permissions a user, service or application
 
 An **IAM Policy** is a JSON document that allows or denies permissions to AWS Services and resources. 
 
-Sample Identity based policy 
+Sample Identity-based policy 
 
 
 ![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/b188f5b9-d7a7-4e9d-a806-1a8d2c0a4f34)
