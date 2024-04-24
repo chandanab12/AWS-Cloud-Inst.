@@ -410,3 +410,109 @@ Lets customers connect IOT devices and route messages to AWS services without ma
 
 Is a cloud service that allows you to build, deploy, and manage device s/w. It also includes an open edge runtime for running that s/w on devices at n/w edge
 
+## Web API's 
+
+Application Programming Interface - A web API is an application processing interface between a web server and a web browser. It allows different systems and services to communicate and share data with each other. 
+
+All web servers are APIs but not all APIs are web servers. 
+
+- REST API - Representational State Transfer
+
+It defines a set of functions like POST, GET, PUT, and DELETE, which clients can use to access server data by using HTTP Protocols. 
+
+Its main feature is **statelessness**. Meaning servers do not save client data betweenv requests. 
+
+Benefits: 
+
+- Integration - used to integrate new applications with new software. can be used to leverage existing code.
+
+- Innovation - Incase of rapid deployment of innovative services, changes can be made at the API level without having to re-write the whole code.
+
+- Expansion - API's allow you to match the client's ever changing needs.
+
+- Ease of maintenance - APIs act as gateway between 2 systems. so changes made by one party do not imapact the other or their internal APIs
+
+## AWS CLI 
+
+Unified tool used to manage and automate AWS service. Can control AWS resources from the Command line, making it easier to manage large no. of AWS services. 
+
+## AWS Management Console 
+
+It is a web based GUI that provides a centralized, user friendly platform to manage and monitor AWS services such as EC2, S3, etc. 
+
+Requires a **username and password** to use it. 
+
+## AWS SDKs 
+
+They are a collection of libraries, code samples, and documentation that make it easier for developers to interact with AWS services from within their own applications. 
+
+Available for multiple programming languages. 
+
+## AWS Identity and Access Management (IAM) 
+
+IAM allows you to control access to compute, storage, db, and application services in the AWS cloud. 
+
+Can be used to handle authentication, and enforce authorization policies, so you can specify users access privileges. 
+
+It centrally manages access to launching, configuring, and terminating resources in AWS Acc. Provides granular control over access to resources, including specification of which API calls the user is authorized to make. 
+
+
+## IAM Identities (Users, Groups, and Roles)
+
+- AWS Account Root User - The first account created on AWS with a Single Sign-in identity that has complete access to all AWS Services and resources in the account. 
+
+Do not use the root user for everyday tasks. 
+
+### IAM User 
+
+Is an identity that you create in AWS. Consists of name and credentials. 
+
+### IAM Group 
+
+Is a collection of users. can attach one or more IAM policies to groups instead of users. Any new person added to the group will have those policies applied and when removed from the group those access permissions will be gone. 
+
+A group cannot contain another group but only users in it. 
+
+### IAM Role 
+
+Is an identity created that has specific permissions. Instead of being uniquely assosciated with one person, a role is intended to be assigned to anyone who needs it. 
+
+## Access and Permissions 
+
+### Authentication 
+
+A user or system must first prove their identity. 
+
+Enable MFA. 
+
+### Access Keys
+
+They are long-term credentials for an IAM user. 
+
+Access keys consist of two parts: an access key ID and a secret access key, you must use both to authenticate your requests. 
+
+Keep rotating access keys. 
+
+### MFA
+
+It is an IAM best practice that requires a second authentication in addition to username and password sign-in. 
+
+- The IAM password policy does not apply to the AWS account root-user password or IAM user access keys. If a password expires, the IAM user can't sign in to the AWS Management Console, but can continue to use their access keys.
+
+### Authentication 
+
+It is the process of determining what permissions a user, service or application should be granted. 
+
+An **IAM Policy** is a JSON document that allows or denies permissions to AWS Services and resources. 
+
+Sample Identity based policy 
+
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/b188f5b9-d7a7-4e9d-a806-1a8d2c0a4f34)
+
+For **resource** based policy you must use the **Principal** element in the JSON policy to specify the principal that is allowed or denied access to a resource. 
+
+### Identity Federation
+
+It is a system of trust between two parties for the purpose of authenticating users and conveying information needed to authorize their access to resources. 
+
