@@ -358,7 +358,7 @@ produces ready to deploy s/w packages
 
 Is a secure, highly scalable, and fully managed source control service that hosts private Git repos. 
 
-### AWS Codedeply 
+### AWS Codedeploy 
 
 Is a fully managed deployment service that automates s/w deployments to various compute services such as Amazon EC2, ECS, Lambda and on premise servers. 
 
@@ -516,3 +516,13 @@ For **resource** based policy you must use the **Principal** element in the JSON
 
 It is a system of trust between two parties for the purpose of authenticating users and conveying information needed to authorize their access to resources. 
 
+
+## Some AWS Support Technologies
+
+- AWS Trusted Advisor - helps with billing, performance and policy improvisation.
+
+- AWS Abuse Support - any suspicious phishing abuse emails can be sent their way (abuse@amazonaws.com)
+
+- 
+
+- 
