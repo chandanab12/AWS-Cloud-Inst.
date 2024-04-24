@@ -523,6 +523,85 @@ It is a system of trust between two parties for the purpose of authenticating us
 
 - AWS Abuse Support - any suspicious phishing abuse emails can be sent their way (abuse@amazonaws.com)
 
-- 
+  
+## AWS Well Architected Framework 
 
-- 
+Is designed to help customers build the most secure, high performing, resilient, efficient and sustainable infrastructure possible. 
+
+It has 6 pillars:
+
+- Operational excellence
+- Security
+- Reliability
+- Performance efficiency
+- Cost optimization
+- Sustainability
+
+Integrating well architected framework into your organization's process helps your team with the following : Build and deploy faster, Lower or mitigate risks, Make informed decisions, Learn AWS best practices. 
+
+### Well-architected reviews 
+
+Reviews must take place early in the application development cycle, during initial architecture development. 
+
+Must be conducted over the lifetime of an application. 
+
+There is an AWS Well-architected tool in the management console that helps you with self review. 
+
+### AWS Well-Architected Lenses
+
+These extend the guidance that the Well-Architected framework offers to specific industry and technology domains with additional sets of questions and practices. 
+
+Many lenses are available in the form of HTML whitepapers on AWS website. 
+
+Two lenses are integrated in the AWS Well-architected tool:
+
+- The Serverless Lens - that focuses on designing, deploying and architecting your serverless application workloads in the AWS Cloud.
+
+- The SaaS Lens that focuses on designing, deploying, and architecting your software as a SaaS workloads in the AWS Cloud.
+
+### AWS Well-Architected Partner Program
+
+AWS Teamed up with partners who are well versed with its architecture and they help you review and improve your workloads. 
+
+## AWS Cloud Architecture Design Principles 
+
+Applying these cloud principles helps you with building highly available, scalable architectures within AWS. 
+
+- Designing for failure
+- Decoupled components instead of monolithic architecture
+- Implementing elasticity in the cloud as opposed to on-premises environments
+- Thinking parallel. (dividing a job into simple commands and distributing them for optimal results) 
+
+ ### designing for failure 
+
+Example we use a load balancer that redirects traffic to only healthy targets incase of failure on other ones. 
+
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/326ce87a-90f2-4755-b03c-6068e5d852d7)
+
+
+### Loosely coupling 
+
+With this you reduce dependencies in your system by using managed solutions as intermediaries between the layers, they automatically handle failures and scaling of components. 
+
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/8b875a21-d8fb-42a1-a162-fe6fd14b8baa)
+
+### Elasticity and automating 
+
+Common cause of failure in on-premise workloads is resource saturation. In the cloud you can monitor demand and workload utilization. Can avoid overprovisioning or underprovisioning. 
+
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/f56ad57d-e432-4688-8476-403f7a2c3ecd)
+
+### Parallelism 
+It means breaking down larger tasks into smaller, yet similar, subtasks. These subtasks are processed independently. 
+
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/84b526db-22fd-41d1-848b-23173159eed7)
+
+
+### Designing for high availability 
+
+To avoid major failure your syatem must be resillient and for that you require high availability and disaster recovery. 
+
