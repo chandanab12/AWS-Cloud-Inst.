@@ -530,14 +530,14 @@ Is designed to help customers build the most secure, high performing, resilient,
 
 It has 6 pillars:
 
-- Operational excellence
-- Security
-- Reliability
-- Performance efficiency
-- Cost optimization
-- Sustainability
+- Operational excellence (focuses on running and monitoring systems, and continually improving processes and procedures)
+- Security (Protect systems from risk and mitigate vulnerabilities and traceability)
+- Reliability ( test recovery procedures, scale horizontally to increase system availability and recover from failure) (the ability of a workload to perform its intended function correctly and consistently when it is expected)
+- Performance efficiency (efficiently meet system req and evolve to changing technologies) 
+- Cost optimization (Low price point)
+- Sustainability (focuses on long term environmental, economic, and societal impact of your business)
 
-Integrating well architected framework into your organization's process helps your team with the following : Build and deploy faster, Lower or mitigate risks, Make informed decisions, Learn AWS best practices. 
+Integrating well-architected framework into your organization's process helps your team with the following: Build and deploy faster, Lower or mitigate risks, Make informed decisions, and Learn AWS best practices. 
 
 ### Well-architected reviews 
 
@@ -584,6 +584,8 @@ Example we use a load balancer that redirects traffic to only healthy targets in
 
 With this you reduce dependencies in your system by using managed solutions as intermediaries between the layers, they automatically handle failures and scaling of components. 
 
+(https://www.youtube.com/watch?v=MH01PNZLR98) 
+
 
 ![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/8b875a21-d8fb-42a1-a162-fe6fd14b8baa)
 
@@ -605,3 +607,14 @@ It means breaking down larger tasks into smaller, yet similar, subtasks. These s
 
 To avoid major failure your syatem must be resillient and for that you require high availability and disaster recovery. 
 
+Measureables for Disaster Recovery 
+
+## RPO (Recovery Point Objective)
+is a measure of the maximum amount of data loss that your application can tolerate.
+
+A business can recover from losing the last 12 hours of data after which it is permanently lost. 
+
+## RTO (Recovery Time Objective) 
+is a measure of how quickly can your application recover after an outage and how long you can be down.
+
+The application can be unavailable for a maximum of 1 hour. 
