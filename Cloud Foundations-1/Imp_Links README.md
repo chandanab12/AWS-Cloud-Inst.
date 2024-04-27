@@ -40,4 +40,4 @@ Looking for AWS Certified freelancers and AWS partners to complete your projects
 
 - AWS Well-Architected Lenses (https://docs.aws.amazon.com/wellarchitected/latest/userguide/lenses.html)
 
-- 
+- AWS Trusted Advisor (https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html) 
