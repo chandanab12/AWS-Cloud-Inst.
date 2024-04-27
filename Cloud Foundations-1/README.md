@@ -607,6 +607,12 @@ It means breaking down larger tasks into smaller, yet similar, subtasks. These s
 
 To avoid major failure your syatem must be resillient and for that you require high availability and disaster recovery. 
 
+- Fault tolerance - the ability to withstand subsystem failure and maintain availability.
+- Fault isolation - minimizes the scope of impact when a failure does occur. Workloads are broken down to subsystems and fail independently and are repaired in isolation.
+
+- Have redundancy (Some resources that are not used right away but act as a backup)
+- Be ready for large traffic instances - scalable and elastic
+
 Measureables for Disaster Recovery 
 
 ## RPO (Recovery Point Objective)
