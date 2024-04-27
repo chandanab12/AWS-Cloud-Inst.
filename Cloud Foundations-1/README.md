@@ -660,6 +660,24 @@ Minimizes downtime and data loss with fast, reliable recovery of on-premises and
 # Q. 
 By looking at the pics of architectures, how do I differentiate the modes. 
 
+## AWS Well-Architected Lenses 
 
+Extend the guidance that the AWS WA framework offers to specific industry and technology domains with additional set of questions and practices. 
+
+It provides the following:
+- The serverless lens for serverless application workloads in the AWS cloud.
+- The SaaS lens for your SaaS workloads in the AWS Cloud. 
+
+## AWS Trusted Advisor 
+
+It is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices. 
+
+If you have Business, Enterprise On-Ramp or Enterprise Support plan, you can use Trusted Advisor and AWS Support API to access all Trusted Advisor Checks. 
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/cfbd0744-ead6-4f30-a335-bc4d49fb292b)
+
+# Q.
+The answer to the above is cost optimization because the user is paying for the IP address but is not using it. 
+My question is, it is also a security issue since it is an open port and is vulnerable. 
 
 
