@@ -624,3 +624,38 @@ A business can recover from losing the last 12 hours of data after which it is p
 is a measure of how quickly can your application recover after an outage and how long you can be down.
 
 The application can be unavailable for a maximum of 1 hour. 
+
+### MTBF and MTTR
+
+Availability is calculated as: MTBF/(MTBF+MTRR)
+
+MTBF  - the mean time between failures. It is the average time that passes without any failures. 
+
+MTTR - mean time to recovery. It is the average time needed foe the system to become operational again after a failure. 
+
+## Business Continuity Plans 
+
+A BCP is a document that describes how an org will continue to operate if a disaster happens. 
+
+## Disaster recovery strategies 
+
+- Backup & Restore - backups are created in the same region as their source, and also copied to another region.
+
+Also restore your infra in a recovery region. 
+
+- Pilot light - you replicate your data from one region to another and provision a copy of your core workload infra. Resources that are required to support data replication and backup are always on. 
+
+- Warm standby - involves ensuring that there is a scaled down, but fully functional, copy of your prod environment in another region. 
+
+-  Active/active configuration
+It has 2 configurations:
+- Active/active config - where all Regions host the workload and serve traffic.
+- Active/passive config - where the passive site does not actively serve traffic until a failover event occurs.
+
+### AWS Elastic Disaster recovery 
+
+Minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud based applications using affordable storage, minimal compute and point in time recovery. 
+
+
+
+
