@@ -657,5 +657,9 @@ It has 2 configurations:
 Minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud based applications using affordable storage, minimal compute and point in time recovery. 
 
 
+# Q. 
+By looking at the pics of architectures, how do I differentiate the modes. 
+
+
 
 
