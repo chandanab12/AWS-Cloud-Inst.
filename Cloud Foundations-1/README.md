@@ -681,3 +681,54 @@ The answer to the above is cost optimization because the user is paying for the 
 My question is, it is also a security issue since it is an open port and is vulnerable. 
 
 
+## Continuous Integration and Continuous Delivery (CI/CD) 
+
+These are the methods and processes to automate code build, tests, and deployments through a deployment pipeline. They help achieve operational excellence.
+
+### Continuous Integration 
+
+It often refers to the build or integration stage of the software release process. It requires both an automation component and a cultural component. Key goals are to find and address bugs, improve software quality, and reduce time taken to validate and release s/w updates. 
+
+### Continuous Delivery
+
+It is a s/w development practice where every code change is automatically built, tested, and then deployed to a non production testing or staging environement. 
+
+It is an expansion on CI by deplying all code changes to a testing environment or a production environment after the build stage. This requires deployment approval. 
+
+### Continuous Deployment
+
+Similar to continuous delivery but with automatic deployment to production. Testes code does not require an explicit approval before being pushed to production. 
+
+Some best practices of CI/CD Pipeline:
+
+- Use version control.
+- Test and validate changes.
+- Make small, reversible changes.
+- Use build and deploymenet management systems
+- Fully automate integration and deplyoment. 
+
+## CI/CD on AWS 
+
+Start with AWS Codepipeline to build a CI or CD workflow that uses AWS Codebuild, AWS COdeDeploy, and other tools. 
+
+- S/w Release workflows - AWS CodePipeline - 
+
+It is a CI/CD service for fast and reliable application and infra updates. 
+
+- Building and testing code - AWS CodeBuild
+
+Compiles sourcecode, runs tests, and produces s/w packages that are ready to deploy. No builds are left to wait in the queue and servers are managed and scaled for you. 
+
+- Deployment automation - AWS CodeDeploy
+
+Automates code deploymenets to an instance, helps avoid downtime during deployment, and handles complexity. 
+
+- Unified CI/CD projects - AWS CodeStar
+
+Provides a unified user interface to manage your s/w activities of develop, build, and deploy
+
+- Source Control - AWS CodeCommit
+
+It is a secure, highly scalable, managed source control service that hosts private Git repos. Also works well with existing git tools, stores anything from code to binaries. 
+
+
