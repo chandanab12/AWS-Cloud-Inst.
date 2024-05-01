@@ -28,3 +28,26 @@ A change mindset represents the willingness of your audience to accept your solu
 - Half mindset - The audience is comfortable with the current approach but is open to options. Have meaningful discussions and demonstrate value.
 - Almost empty - The audience recognizes the need to change for development. Focus your discussions on problems and related opportunities with your solutions.
 - Empty mindset - Audience do not see value in their current solution. When interacting with them highlight the benefits of your solution and help them do away with current issues. 
+
+- Conduct thorough research into your audience's communication style. Make sure it resonates with them.
+- Do not include idioms and explain any acronyms that you use.
+- Slang consists of informal words and expressions. Clarity is essential.
+- No offensive, double layered humour. There is a fine line between humour and sarcasm.
+- Do not use double negatives. Be clear and concise.
+- Avoid cognitive or information overload.
+
+Things to keep in mind to avoid cognitive overload 
+- Attention span - maintain it for the audience.
+- Keep the audience attentive - with engaging content
+- Working memory - split your info into parts of 3
+- Forgetting curve - fight it by making your content personal, relatable, or interesting.
+
+Five C's Principle 
+- Clear
+- Concise
+- Correct
+- Coherent
+- Confident
+
+
+  
