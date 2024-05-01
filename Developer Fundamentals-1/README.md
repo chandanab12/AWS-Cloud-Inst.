@@ -200,7 +200,7 @@ A dict is an ordered, mutable collection of key-value pairs that cannot store du
 
 ----------------------------------------------------------------------------------------------
 
-## Python Lists
+## Python Lists ------ check List.py for practice 
 
 Lista are used to store a wide variety of elements in a single variable. Are mutable, can hold data of any type, and can hold repeat values. Each element in a list is called an item. 
 
@@ -250,5 +250,33 @@ Ex: new_list = list((1, 2, 3))  # converts a tuple to a list
 - reverse() - lists elements in descending order/ reverse alphabetical order.
 - count() - to find the number of times an item appears on a list
 - in and not in - give out true or false based on your statement
+
+---------------------------------------------------------------------------------------------
+
+## Python Sets ------- check set.py for practice 
+Sets are unordered collections of unique elements. Can be used to drop duplicate values and to find common elements across data sets. 
+
+Sets are declared using curly braces { } 
+
+example: farm_animals = {"dog", "cat", "hen", "duck", "Sheep", "cow"}
+
+cannot use indexing since they are unordered. 
+
+can use set constructor to convert a list to a set and eliminate duplicates 
+
+Example: new_set = set(my_list)
+
+## Set methods 
+
+some similar methods like 
+- copy()
+- clear()
+- in - membership operator - determines if an element belongs to a set - o/p - T/F
+- not in - membership operator - determines if an element is not in the set - o/p - T/F
+
+## Boolean Set methods 
+
+- isdisjoint() - returns true if indicated sets have no elements in common.
+- issubset() - returns true if the first set contains all elements of the second set.
 
 - 
