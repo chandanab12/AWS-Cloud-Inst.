@@ -45,3 +45,5 @@ Looking for AWS Certified freelancers and AWS partners to complete your projects
 - Set up CI/CD pipeline on AWS (https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-s3.html)
 
 - Practicing CI/CD on AWS (https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html)
+
+- EC2 Instances and types (https://aws.amazon.com/ec2/instance-types/) 
