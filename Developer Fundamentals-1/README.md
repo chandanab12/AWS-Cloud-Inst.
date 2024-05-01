@@ -149,7 +149,7 @@ starting index(included) and ending index (excluded)
 
 ## Loops 
 
-Loops are instructions that repeat for as lomg as a condition is met. Python has for loops and while loops. 
+Loops are instructions that repeat for as long as a condition is met. Python has for loops and while loops. 
 
 - for loops
 
@@ -163,3 +163,92 @@ Loops are instructions that repeat for as lomg as a condition is met. Python has
 - break statement
   It is a control flow statement you use to immediately stop running a for or while loop statement. 
   
+## Data Structures 
+
+Data structures provide an organized way to store data. 
+
+Python has built-in non-primitive data structures that can help store and access a collection of data. They are lists, sets, tuples and dictionaries. 
+
+### Iterables 
+
+An iterable is a collection of elements that you can loop. or iterate, through one at a time.
+
+- Ordered - if the elements are stored and retrieved in a predictable sequence.
+- Mutable - if you can change the elements it holds.
+
+## List 
+
+A list is an ordered, mutable collection of elements that might include duplicate values. 
+
+It is defined by square brackets. [ ]  It can accessed by position. 
+
+## Sets
+
+A set is an unordered, mutable collection of unique elements. { }
+
+Since it is unordered, you cannot access elements by position. 
+
+## Tuple 
+
+A tuple is an ordered, unmutable collection of elements that can store duplicate values. (   )
+
+Can access elements based on position. 
+
+## Dictionary 
+
+A dict is an ordered, mutable collection of key-value pairs that cannot store duplicate keys. 
+
+----------------------------------------------------------------------------------------------
+
+## Python Lists
+
+Lista are used to store a wide variety of elements in a single variable. Are mutable, can hold data of any type, and can hold repeat values. Each element in a list is called an item. 
+
+List can have zero elements 
+
+Ex: scores = [ ]
+
+- len() function
+The length function returns the number of elements in a list.
+
+- Lists follow indexing so items in a list are positioned from 0
+Accessing something from a list can be done by indexing
+
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/cabd6b2c-0116-47bc-9b67-dfff5059ab38)
+
+
+You can access a range of elements by specifying, in brackets, where to start and end. 
+It is called slicing. list[1:3] or list[-1:-3]
+
+** The first number is included in the output but the second/last is always excluded.
+
+## List methods
+
+Adding list elements
+
+- Append() - adds an element to the end of the list
+- insert() - adds an element to the position specified
+- extend() - adds a list of elements to an existing list
+- "+" adds a list of elements kind off like concatenation
+- pop() - removes elements from a list. If no index is specified the last element is popped. 
+- remove() - you must identify the item to remove. Be it specifying its value or its index position.
+- clear() - just clears everything from the list.
+
+Copying lists 
+
+- copy() - used to create a copy of a list so that you can modify one while maintaining the original.
+- using slicing [:] - copied_list = original_list[:]
+
+Changes made to one list do not affect the other. 
+
+- assignment operator '=' - you can copy a list by assigning a new variable to the existing list.
+
+List constructor - by using a list constructor function we can convert a sequence to a list. 
+Ex: new_list = list((1, 2, 3))  # converts a tuple to a list
+
+- sort() - method lists them in ascending order/ alphabetical order - numbers > Capital letters> alphabetical order based on ASCII standards. 
+- reverse() - lists elements in descending order/ reverse alphabetical order.
+- count() - to find the number of times an item appears on a list
+- in and not in - give out true or false based on your statement
+
+- 
