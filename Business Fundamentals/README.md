@@ -261,14 +261,45 @@ They cluster data. They do not reflect actual value but rather group items.
 Clustering is often used with ML. 
 - Word clouds are used to display the frequency of a word in the analyzed text. Particularly used in sentiment analysis or social media analysis.
 
-Cooccurence models - useful for analysing how closely one word appears in relation to another. 
+Cooccurrence models - useful for analyzing how closely one word appears in relation to another. 
 
 
+Challenges presented by data in Data Visualization 
+
+- Increase in data variety - the challenge is integrating multiple data sources, types and managing unstructured data flows.
+- Variability is related to data dimensionality.
+- Deduplicating data and removing redundancies(same piece of data in multiple places)
+-  Compressing the data
+-  Maintaining data veracity (trustworthiness of data)
+-  Need for robust metadata. 
 
 
+## Behavioral Assertiveness 
+Refers to the ability to express one's thoughts, feelings, needs, and opinions in a direct, honest, and respectful manner while also considering the rights and perspectives of others. 
 
+- Communicating your views clearly
+- Defending your rights
+- Effective feedback
+- Descriptive feedback - describe the 1. problem 2. action 3. result
 
+While saying NO 
+- Show empathy
+- Valid reasoning/explanation
+- Suggest a later time when you can do it
+- Repeat saying no if they dont get it. Speak calmly
 
+## Verbal Assertiveness 
+It is important to assert your position clearly and confront the behavior of others effectively to best meet the needs of your organization. 
+
+- Helps deal with defensiveness and pushback from others.
+- Provide info to support your position
+- Focus on one issue at a time
+- State your main point quickly
+- Point out required/recommended actions
+- Encourage others to question your reasoning.
+- Actively seek diff points of views.
+- Ask high quality questions
+- Have a 3 part assertion message ---- Behaviour - 
 
 
 
