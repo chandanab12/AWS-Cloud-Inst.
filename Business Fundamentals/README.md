@@ -148,6 +148,7 @@ Make sure you identify common objections to storytelling
 ## Balance Sheet Close (Technique used to handle objections) Ben Franklin Close 
 - Draw a large T shape on a piece of paper and list adv and disadv.
 
+------------------------------------------------------------------------------------------
 
 ## Data Visualization 
 
@@ -301,12 +302,51 @@ It is important to assert your position clearly and confront the behavior of oth
 - Ask high quality questions
 - Have a 3 part assertion message ---- Behaviour - 
 
+## Aims of Communication 
+- Connect with your audience
+- Get the audience to understand and remember your message
+- Get the audience to agree and believe in what you say.
+- Get the audience to care about your message.
+
+-----------------------------------------------------------------------------------------
+
+## Emotional Intelligence 
+
+It refers to the ability to recognize, understand, manage and effectively use one's own emotions and the emotions of others. 
+Helps navigate social interactions, communicate effectively, empathize with others, and handle emotional challenges in a healthy productive way. 
+
+Components of emotional intelligence 
+- Self awareness
+- Self regulation
+- Motivation
+- Empathy
+- Social Skill 
+
+EI in a leadership setting helps nurture a sense of trust and connection. 
+
+Key interpersonal skills:
+- Active listening
+- Influence
+- Communication
+- Building bonds
+- Conflict management
+
+Organizational culture and EI 
+- Individual moral authority
+- Value disparity
+- Mission statement
+- Decision making
+- Empathy 
 
 
 
+## Social Style Model 
+- Amiable
+- Analytical
+- Driving
+- Expressive 
 
-
-
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/1d84740d-e4b6-418c-901d-d0046bc5a5ac)
 
 
 
