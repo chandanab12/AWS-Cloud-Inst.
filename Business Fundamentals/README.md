@@ -349,6 +349,18 @@ Organizational culture and EI
 ![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/1d84740d-e4b6-418c-901d-d0046bc5a5ac)
 
 
+## Team synergy 
+It transforms a group of individuals into a united and high-performing team that makes better decisions and develops creative solutions. 
+
+## Conflict Management Strategies 
+- Avoiding
+- Accomodating
+- Compromising
+- Competing
+- Collaborating
+
+
+
 
 
 
