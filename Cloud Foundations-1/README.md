@@ -732,3 +732,60 @@ Provides a unified user interface to manage your s/w activities of develop, buil
 It is a secure, highly scalable, managed source control service that hosts private Git repos. Also works well with existing git tools, stores anything from code to binaries. 
 
 
+------------------------------------------------------------------------------------------
+## Amazon EC2 
+
+## Compute as a Service 
+
+- Flexible
+- Pay as you go
+- Supports various OS systems
+
+- AMI (Amazon Machine Image) contains information about how you want your instance to be configured, including the OS, possible apps to be pre-installed, etc.
+
+ ### Instance type 
+ It is the combination of virtual hardware components, such as virtual CPU and memory, that make up the instance. 
+
+ ### Instance architectures 
+ can choose from Intel, AMD, and ARM(Graviton) 
+
+ ### Instance families 
+ Categorized into 5 types 
+ ### 1. General purpose
+Provides a balance of compute, memory, and networking resources. Used for web servers and code repos.
+Low cost burstable general purpose resources - are T family instances. A burst is when the activity on the instance exceeds normal operation for a short period. 
+
+ ### 2. Compute optimized
+Ideal for compute bound applications that benefit from high performance processors. Suitable for compute intensive operations. 
+Ex: HPC, Dedicated gaming servers, ML inference, etc
+
+ ### 3. Memory optimized
+ designed to deliver fast performance for workloads that process large datasets in memory. 
+Ex: Relational DBs , web cache stores, Hadoop, Spark clusters
+
+ ### 4. Storage optimized
+Designed for workloads that require high, sequential read and write access to large datasets on local storage. Optimized to deliver thousands of low latency, random I/O operations per second. (IOPS) 
+Ex: Massive parallel processing, MapReduce, Hadoop, Data warehousing applications etc 
+ 
+ ### 5. Accelerated optimized
+Use hardware accelerators, or coprocessors, to perform some functions more efficiently than s/w running on CPUs. Mostly used for high processing capabilities. 
+Ex: Video rendering, processing, AI and ML 
+
+### 6. HPC optimized 
+to use multiple instances at the same time 
+
+### Instance sizing 
+EC2 instances are size based on the combined hardware resources consumed by instance type. Size is the total configured capacity of vCPU, memory, storage and networking. Sizes range from nano to upwards of 32xlarge
+
+### Instance naming
+![image](https://github.com/chandanab12/AWS-Cloud-Inst./assets/54497878/edf43d92-69c3-45bc-bfc9-3cd18468e52a)
+
+### EC2 instance tenancy 
+
+### Shared Tenancy 
+
+
+- Spot is not suitable for critical instances that need to be up without interruption 
+- EBS is the block storage for EC2. This is where the Storage, OS is gonna sit on.
+
+- When you stop an instance the compute will stop but you will be paying for the volumes. 
